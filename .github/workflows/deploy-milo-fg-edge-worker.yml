@@ -12,9 +12,9 @@ on:
         description: 'Edge Worker'
         type: choice
         required: true
-        default: 'Milo_Stage_floodgate_edge_workers'
+        default: 'Milo_Stage_Floodgate_EdgeWorkers'
         options:
-            - 'Milo_Stage_floodgate_edge_workers'        
+            - 'Milo_Stage_Floodgate_EdgeWorkers'        
       network:
         description: 'Network'
         type: choice
