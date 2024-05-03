@@ -41,4 +41,4 @@ jobs:
         with:
           edgeworkersName: ${{ inputs.edgeworker }}
           network: ${{ inputs.network }}
-          groupid: '114609'
+          groupid: '58544'
