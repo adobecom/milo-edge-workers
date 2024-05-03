@@ -36,9 +36,9 @@ jobs:
       - name: Deploy Edge Worker
         uses: jdmevo123/akamai-edgeworker-action@1.1
         env:
-          EDGERC: ${{ secrets.AKAMAI_EDGERC_1 }}
+          EDGERC: ${{ secrets.AKAMAI_EDGERC }}
           WORKER_DIR: milo/${{ inputs.edgeworker }}
         with:
           edgeworkersName: ${{ inputs.edgeworker }}
           network: ${{ inputs.network }}
-          groupid: '58544'
+          groupid: '114609'
