@@ -12,17 +12,16 @@ on:
         description: 'Edge Worker'
         type: choice
         required: true
-        default: 'Milo_floodgate_edge_workers'
+        default: 'Milo_Stage_floodgate_edge_workers'
         options:
-            - 'Milo_floodgate_edge_workers'        
+            - 'Milo_Stage_floodgate_edge_workers'        
       network:
         description: 'Network'
         type: choice
         required: true
         default: 'staging'
         options:
-          - 'staging'          
-          - 'production'
+          - 'staging'
 
 jobs:
   deploy-edgeworker:     
