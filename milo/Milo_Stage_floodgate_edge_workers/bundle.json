@@ -1,4 +1,4 @@
 {
-  "edgeworker-version": "1.0",
-  "description" : "Milo Floodgate - timed releases with FG cookie check"
+  "edgeworker-version": "2.13",
+  "description" : "Milo Floodgate - fg cookie check added with additional logs"
 }
