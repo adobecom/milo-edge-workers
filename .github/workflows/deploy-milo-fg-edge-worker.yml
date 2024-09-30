@@ -12,9 +12,9 @@ on:
         description: 'Edge Worker'
         type: choice
         required: true
-        default: 'Milo_Stage_Floodgate_EdgeWorkers'
+        default: 'Milo_Stage_floodgate_edge_workers'
         options:
-            - 'Milo_Stage_Floodgate_EdgeWorkers'        
+            - 'Milo_Stage_floodgate_edge_workers'        
       network:
         description: 'Network'
         type: choice
@@ -41,4 +41,4 @@ jobs:
         with:
           edgeworkersName: ${{ inputs.edgeworker }}
           network: ${{ inputs.network }}
-          groupid: '114609'
+          groupid: '58544'
