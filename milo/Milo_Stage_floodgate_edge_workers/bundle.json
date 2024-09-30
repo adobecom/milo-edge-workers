@@ -1,4 +1,4 @@
 {
-  "edgeworker-version": "2.13",
-  "description" : "Milo Floodgate - fg cookie check added with additional logs"
+  "edgeworker-version": "2.14",
+  "description" : "Milo Floodgate - updated just the version to test deploy from github"
 }
